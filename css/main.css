@@ -45,9 +45,41 @@ body {
 }
 .prof-pic {
     grid-area: prof-pic;
+    align-self: center;
+    
+}
+.image-container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 75%;
+    margin: auto;
+}
+.contact {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#prof-img {
+    display: grid;
+    /* justify-content: end; */
+    max-height: 18%;
+
+}
+.area-border {
+    border: 2px white;
 }
 .prof-info {
     grid-area: prof-info;
+}
+.info-container {
+    height: 100%;
+    padding: 0 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
 }
 .posts {
     grid-area: posts;
