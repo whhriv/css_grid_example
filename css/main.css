@@ -84,3 +84,24 @@ body {
 .posts {
     grid-area: posts;
 }
+.post-card {
+    border: 1px solid #e6e6e6;
+    padding: 1em;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    margin-bottom: 3vh;
+}
+.post-card <p {
+    margin: 2vh 
+}
+.card-links {
+    display: flex;
+    justify-content: space-around;
+
+}
+.card-links > a:hover {
+    text-decoration: hover;
+    color: black;
+
+}
